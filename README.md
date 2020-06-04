@@ -2,7 +2,7 @@
     <img src="https://img.icons8.com/bubbles/100/000000/rocket.png" width="100" height="100">
 </p>
 
-<h1 align="center">React comment for items (+ Auth)</h1>
+<h1 align="center">Nodemailer.js test for post sending</h1>
 
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
@@ -21,7 +21,11 @@
 
 <hr>
 
-![Layout](gitImg/kaboo.png)
+![Layout](kaboo1.png)
+
+<br>
+
+![Layout](kaboo2.png)
 
 <br>
 
@@ -52,9 +56,9 @@
 
 
 
-[forks-shield]: https://img.shields.io/github/forks/kaboobear/React-Comments?style=flat-square
-[forks-url]: https://github.com/kaboobear/React-Comments/network/members
-[issues-shield]: https://img.shields.io/github/issues/kaboobear/React-Comments.svg?style=flat-square
-[issues-url]: https://github.com/kaboobear/React-Comments/issues
-[license-shield]: https://img.shields.io/github/license/kaboobear/React-Comments.svg?style=flat-square
-[license-url]: https://github.com/kaboobear/React-Comments/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/kaboobear/Mail-Service?style=flat-square
+[forks-url]: https://github.com/kaboobear/Mail-Service/network/members
+[issues-shield]: https://img.shields.io/github/issues/kaboobear/Mail-Service.svg?style=flat-square
+[issues-url]: https://github.com/kaboobear/Mail-Service/issues
+[license-shield]: https://img.shields.io/github/license/kaboobear/Mail-Service.svg?style=flat-square
+[license-url]: https://github.com/kaboobear/Mail-Service/blob/master/LICENSE.txt
