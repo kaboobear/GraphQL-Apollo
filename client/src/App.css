@@ -85,7 +85,7 @@ img {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   padding: 25px;
   position: relative;
@@ -212,10 +212,10 @@ input[type=number] {
 ------------------------Template------------------------
 ----------------------------------------------------- */
 .btn {
-  background: #5cdb95;
+  background: #4c98cf;
   border: 2px solid transparent;
-  border-radius: 20px;
-  padding: 12px 20px;
+  border-radius: 10px;
+  padding: 10px 15px;
   text-align: center;
   cursor: pointer;
   transition: .2s;
@@ -230,8 +230,16 @@ input[type=number] {
   position: relative;
 }
 
+.del-btn{
+  background:#db4444;
+}
+
 .btn:hover {
-  background: #60cc90;
+  background: #438bbf;
+}
+
+.del-btn:hover{
+  background:#ab2c2c;
 }
 
 .simple-input {
@@ -239,25 +247,38 @@ input[type=number] {
   max-width: 100%;
   position: relative;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 
 input,
 textarea {
-  border: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
   background-color: none;
   width: 100%;
-  padding: 15px 15px;
+  padding: 10px 0;
   background: none;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 16px;
+  font-weight: 600;
   letter-spacing: -0.01em;
   color: #24292e;
   font-family: Montserrat;
-  border-radius:20px;
   position: relative;
   background: #fff;
+}
+
+.line{
+  content:'';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #4c98cf;
+  bottom:3px;
+  left:-100%;
+  transition: .5s;
 }
 
 textarea.error,
@@ -288,10 +309,15 @@ input:focus {
   border-color: none;
 }
 
+input:focus ~ .line{
+  left:0;
+}
+
 textarea::placeholder,
 input::placeholder {
-  opacity: .7;
+  opacity: .6;
   transition: .2s;
+  font-size: 18px;
 }
 
 .disabled-text{
@@ -326,47 +352,101 @@ textarea:focus::placeholder {
 --------------------------Start-------------------------
 ----------------------------------------------------- */
 
+.add-form{
+display: flex;
+margin-bottom: 20px;
+}
+
+.edit-form .line{
+  bottom:0;
+}
+
+.add-form .simple-input{
+  margin-bottom: 0;
+}
+
+form .btn{
+width: 150px;
+margin-left: 15px;
+font-weight: 300;
+}
+
+.form-btns{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
 
 
 .main-title{
-  font-size: 28px;
-  text-align: center;
-  font-weight: 300;
-  margin-bottom: 25px;
-}
-
-.main-form{
-  flex:1;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  border:1px solid #ccc;
-  border-radius: 20px;
-  background: rgba(0,0,0,.03);
-}
-
-.main-form .btn{
-  margin-top: auto;
-}
-
-.main-form:last-child{
-  margin-left: 20px;
-}
-
-.list-of-mails{
+  font-size: 35px;
+  font-weight: 400;
   margin-bottom: 15px;
-}
-
-.mails-list-title{
-  font-size: 18px;
-  margin-bottom: 13px;
   text-align: center;
 }
 
-.mail-elem{
-  margin-bottom: 7px;
+.main-subtitle{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.comment-items{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.comment-wrap{
+  width: 33.333333%;
+  padding: 7px;
+}
+
+.comment-item{
+  border:1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+  display: block;
+  height: 100%;
+}
+
+.comment-item.no-hover{
+  cursor: default;
+}
+
+.comment-item:not(.no-hover):hover{
+  box-shadow: 0 3px 13px rgba(0,0,0,.3);
+  transform: translateY(-5px);
+}
+
+.comment-top{
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  padding:12px;
+  border-bottom:1px solid #ccc;
+  background: rgba(0,0,0,.04);
+}
+
+.comment-title{
   font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.comment-text{
+  font-size: 14px;
+  color:#444;
+  line-height: 1.4;
+  padding: 12px;
+}
+
+.comment-time{
+  font-size: 10px;
+  padding-bottom: 1px;
   color:#888;
-  font-weight: 300;
-  text-align: center;
 }

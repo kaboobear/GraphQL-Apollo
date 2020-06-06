@@ -2,7 +2,7 @@
     <img src="https://img.icons8.com/bubbles/100/000000/rocket.png" width="100" height="100">
 </p>
 
-<h1 align="center">Nodemailer.js test for post sending</h1>
+<h1 align="center">My GraphQL and Apollo project</h1>
 
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
@@ -21,11 +21,7 @@
 
 <hr>
 
-![Layout](kaboo1.png)
-
-<br>
-
-![Layout](kaboo2.png)
+![Layout](kaboo.png)
 
 <br>
 
@@ -56,9 +52,9 @@
 
 
 
-[forks-shield]: https://img.shields.io/github/forks/kaboobear/Mail-Service?style=flat-square
-[forks-url]: https://github.com/kaboobear/Mail-Service/network/members
-[issues-shield]: https://img.shields.io/github/issues/kaboobear/Mail-Service.svg?style=flat-square
-[issues-url]: https://github.com/kaboobear/Mail-Service/issues
-[license-shield]: https://img.shields.io/github/license/kaboobear/Mail-Service.svg?style=flat-square
-[license-url]: https://github.com/kaboobear/Mail-Service/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/kaboobear/GraphQL-Apollo?style=flat-square
+[forks-url]: https://github.com/kaboobear/GraphQL-Apollo/network/members
+[issues-shield]: https://img.shields.io/github/issues/kaboobear/GraphQL-Apollo.svg?style=flat-square
+[issues-url]: https://github.com/kaboobear/GraphQL-Apollo/issues
+[license-shield]: https://img.shields.io/github/license/kaboobear/GraphQL-Apollo.svg?style=flat-square
+[license-url]: https://github.com/kaboobear/GraphQL-Apollo/blob/master/LICENSE.txt
